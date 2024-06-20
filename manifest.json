@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "YT Ad Button",
+    "description": "Base Level Extension",
+    "permissions": [
+        "tabs"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "version": "1.0",
+    "action": {
+        "default_icon": "yt_ad_button_extensions.png"
+    },
+    "background": {
+        "service_worker": "yt_ad_button.js"
+    }
+}
